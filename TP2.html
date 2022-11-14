@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>TP NRO 2- Grupo 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <div class="bg-light">
+            <header>
+                <div class="row" style="height: 150%;">
+                    <div class="bg-primary row d-md-inline-flex ">
+                        <div class="text-center">
+                            <h1>TP NRO 2- Grupo 4</h1>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-sm-3 col-md-1" style=" height: 599px;">
+                    <div class="bg-dark" style="height: 100%">
+                        <ul class="nav nav-pills flex-column mb-auto me-2">
+                            <li class="nav-item mt-4">
+                                <aside class="aside">
+                            <li class="nav-item mt-4">
+                                <button id="mostrarApi" class="btn-block"><i
+                                        class="fas fa-cloud-sun"></i>CRYPTOS</button>
+                            </li>
+                            <li class="nav-item mt-4">
+                                <button id="mostrarApi2" class="btn-block"><i
+                                        class="fas fa-database"></i>STRAPI</button>
+                            </li>
+                            <li class="nav-item mt-4">
+                                <button id="mostrarGraf" class="btn-block"><i
+                                        class="fas fa-chart-pie"></i>GRAFICOS</button>
+                            </li>
+                            </aside>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article class="main">
+                                <div id="api">
+                                    <div id="crypto">
+                                        <!--Datos de la Crypto-->
+                                    </div>
+                                </div>
+                                <div id="api2">
+                                    <div id="strapi">
+                                        <!--Strapi-->
+                                    </div>
+                                </div>
+                                <div id="graf">
+                                    <div id="graficos">
+                                        <!--Google Charts -->
+                                    </div>
+                                </div>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <footer>
+                    <div class="m-0 p-0 row justify-content-center">
+                        <div class="bg-primary">
+                            <div class="borde color 4 col-sm">
+                                <div class="text-end">
+                                    <h3> TyG Web Año 2022</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                crossorigin="anonymous"></script>
+            <script src="cryptost.js"></script>
+</body>
+
+</html>
