@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>TP NRO 1- Cejas, Agustin</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="frases.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div class="bg-light">
+            <header>
+                <div class="row" style="height: 100%;">
+                    <div class="bg-primary row d-md-inline-flex ">
+                        <div class="col-md-3">
+                            <img src="escudoquilmes.png" width="169px" height="240px">
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <h1>TP NRO 1- Cejas, Agustín</h1>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-sm-3 col-md-1" style=" height: 599px;">
+                    <div class="bg-dark" style="height:100%;">
+                        <ul class="nav nav-pills flex-column mb-auto me-2">
+                            <li class="nav-item mt-4">
+                                <button type="button" class="btn btn-info nav-link active"
+                                    onclick="location.reload()">INICIO</button>
+                            </li>
+                            <li class="nav-item mt-4">
+                                <button type="button" class="btn btn-info nav-link active" onclick="mostrarPokemon()"
+                                    ;>API LINK1</button>
+                            </li>
+                            <li class="nav-item mt-4">
+                                <button type="button" class="btn btn-info nav-link active" onclick="mostrarPersonajes()"
+                                    ;>API LINK2</button>
+                            </li>
+                            <li class="nav-item mt-4">
+                                <div id="ocultarapi1">
+                                    <button type="button" class="btn btn-info nav-link active" onclick="limpiar()"
+                                        ;>ELIMINAR API</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11">
+                    <div id="contenido">
+                        <p>Lo que espero de la materia es aprender los diferentes lenguajes y estructuras que se
+                            utilizan a la hora del diseño de pagina web y aprobar. <br>
+                            Para hacer esta pagina utilice: HTML, CSS, JS, Bootstrap y JSON</p>
+                    </div>
+                    <script type="text/javascript">mostrarFrase();</script>
+                    <div id="principal2" class="row"></div>
+                </div>
+            </div>
+            <footer>
+                <div class="m-0 p-0 row justify-content-center">
+                    <div class="bg-primary">
+                        <div class="borde color 4 col-sm">
+                            <div class="text-end">
+                                <h3> TyG Web Año 2022, 30/5/2022</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+        <script src="apipokemon.js"></script>
+        <script src="apirickandmorty.js"></script>
+        <script src="funcionesjs.js"></script>
+</body>
+
+</html>
